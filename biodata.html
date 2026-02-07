@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Dashboard Pribadi - Nazela</title>
+  <link rel="stylesheet" href="gaya.css">
+</head>
+<body>
+  <div class="wrap">
+    <aside class="sidebar card" id="sidebar">
+      <img id="profilePhoto" class="profile-photo" src="fotoku.jpeg" alt="Foto Profil">
+      <div class="name" id="fullName">NAZELA DWI RAMADHANI</div>
+      <div class="title" id="jobTitle">COMPUTER ENGGINERING</div>
+    
+      <div class="section">
+        <div class="muted"><br>Sebagai seorang profesional teknik komputer dengan pengalaman dalam pengembangan perangkat lunak dan sistem informasi, saya senang membagikan karya-karya saya dengan anda. Saya dapat membantu anda mencapai tujuan anda dalam pengembangan perangkat lunak, analisis data, dan desain web</div>
+        <div class="email-list" id="emailList">nazeladwi588@gmail.com</div>
+      </div>
+
+      <div class="section" style="margin-top:16px">
+        <button class="btn btn-primary" id="downloadCvBtn">Download CV (PDF)</button>
+      </div>
+    </aside>
+
+    <main class="main">
+      <div class="top">
+        <div class="search card">
+          <input id="searchInput" placeholder="Cari proyek atau keyword...">
+        </div>
+        <div style="width:180px">
+          <div class="card" style="padding:10px;text-align:center">
+            <div class="muted">Connections</div>
+            <div style="font-weight:700;font-size:20px;margin-top:6px" id="connectionsCount">0</div>
+          </div>
+        </div>
+      </div>
+
+      <section style="margin-top:18px" class="card">
+        <div class="section-title">
+          <h2>Tentang Saya</h2>
+          <div class="muted">Mahasiswa semester 3 <br> di Universitas 
+        Muhammadiyah Buton <br>jurusan rekayasa sistem komputer</div>
+        </div>
+        <div id="aboutBlock"></div>
+      </section>
+
+      <section style="margin-top:18px" class="card">
+        <div class="section-title">
+          <h2>Pendidikan</h2>
+          <div class="muted">TK Mutiara bunda <br>SDN 2 Baubau <br>SMP & SMA swasta darussalam</div>
+        </div>
+        <div id="projectsBlock">
+          <div class="projects-grid" id="projectsGrid"></div>
+        </div>
+      </section>
+
+      <section style="margin-top:18px" class="card">
+        <div class="section-title">
+          <h2>Kontak & Sosial</h2>
+          <div class="muted">Cara menghubungi <br>no.telp: 085282233826<br>Whatsapp: 085282233826
+        <br>Instagram: Rheazel_24</div>
+        </div>
+        <div id="socialBlock"></div>
+      </section>
+
+      <section style="margin-top:18px" class="card">
+        <div class="section-title">
+          <h2>Pengalaman bahasa pemrograman</h2>
+          <div class="muted"> C++, Python, MySQL, HTML, Javascript dan CSS </div>
+        </div>
+        <div id="projectsBlock">
+          <div class="projects-grid" id="projectsGrid"></div>
+        </div>
+      </section>
+
+       <section style="margin-top:18px" class="card">
+        <div class="section-title">
+          <h2>Alamat</h2>
+          <div class="muted">BTN Medibrata blok C2 no 12</div>
+        </div>
+        <div id="projectsBlock">
+          <div class="projects-grid" id="projectsGrid"></div>
+        </div>
+      </section>
+    </main>
+  </div>
+
+  <script src="tampilan.js"></script>
+</body>
+</html>
